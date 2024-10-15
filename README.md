@@ -97,6 +97,10 @@ MRI画像は左から右へ
 目的変数
 5,3の行列で予測されるように正解ラベルを作成しました。
 
+例
+|L1/L2|L2/L3|L3/L4|L4/L5|L5/S1|
+|:--:|:--:|:--:|:--:|:--:|
+|Normal/Mild|Normal/Mild|Normal/Mild|Moderate|Severe|
 ~~~python
 [[1,0,0]
  [1,0,0]
