@@ -52,15 +52,16 @@ MRI画像を使い腰椎のうちの５つの部位を **通常(Normal/Mild)** *
 ## MRIについて
 
 MRI画像は断面が３種類あります。
+![断面](https://ilclinic.or.jp/wp/wp-content/uploads/2022/12/image-18.png)
 
 * Saggital - 矢状断面
-![矢状断面]()
+![矢状断面](https://ilclinic.or.jp/wp/wp-content/uploads/2022/12/image-14.png)
 
 * Axial - 水平断面
-![水平断面]()
+![水平断面](https://ilclinic.or.jp/wp/wp-content/uploads/2022/12/image-15.png)
 
 * Coronal -　冠状断面
-![冠状断]()
+![冠状断](https://ilclinic.or.jp/wp/wp-content/uploads/2022/12/image-17.png)
 
 本コンペティションで用意されている画像は**Saggital画像**と**Axial画像**になります。
 
