@@ -10,6 +10,8 @@
 
 ## EDA
 
+### 症状について
+
 * Spinal Canal Stenosis 脊柱管狭窄症
 
 * Left Neural Foraminal Stenosis 左側椎間孔狭窄症
@@ -20,11 +22,11 @@
 
 * Right Subarticular Stenosis 
 
-断面について
+### MRIについて
 
-Saggital - 矢状断面
+* Saggital - 矢状断面
 
-Axial - 水平断面
+* Axial - 水平断面
 
 MRIの信号の種類
 
