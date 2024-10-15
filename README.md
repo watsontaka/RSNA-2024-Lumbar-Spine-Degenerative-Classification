@@ -4,6 +4,12 @@
 
 各方向から撮影された腰椎のMRI画像を使って腰椎の５つの部位の状態を予測するという内容のコンペティションになります。
 
+Normal/Mild　正常/軽症
+
+Moderate 　　中程度
+
+Severe       重症
+
 コンペティションのURLは以下になります。
 
 [https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification]
@@ -12,11 +18,12 @@
 
 ## 腰椎
 
-部位
-
 以下の通り画像の通りL1からL5まであります。
 
 ![腰椎](https://fuelcells.org/wp/wp-content/uploads/2023/11/intervertebral-disc.jpg.webp)
+
+画像　リペアセルクリニック
+[https://fuelcells.org/topics/27830/]
 
 ### 症状について
 
@@ -34,8 +41,10 @@
 ## MRIについて
 
 * Saggital - 矢状断面
+![矢状断面]()
 
 * Axial - 水平断面
+![水平断面]()
 
 MRIの信号の種類
 
@@ -85,6 +94,16 @@ MRI画像は左から右へ
 
 ## 機械学習モデル
 
+目的変数
+5,3の行列で予測されるように正解ラベルを作成しました。
+
+'''
+[[1,0,0]
+ [1,0,0]
+ [1,0,0]
+ [0,1,0]
+ [0,0,1]]
+'''
 
 画像抽出　DenseNet
 
