@@ -4,7 +4,7 @@
 
 脊柱管狭窄症、ヘルニアなどの原因となる腰椎の部位を検出することを目的としたコンペティションです。
 
-MRI画像を使い腰椎のうちの５つの部位を **通常(Normal/Mild)** **中傷(Moderate)** **重症(Severe)** の３種類の程度の確率を予測する機械学習モデルを作ることが目標になります。
+MRI画像を使い腰椎の５つの部位を **通常(Normal/Mild)** **中傷(Moderate)** **重症(Severe)** の３種類の程度の確率を予測する機械学習モデルを作ることが目標になります。
 
 例
 
@@ -163,8 +163,7 @@ one-hot表現(該当する場合は1,それ以外は0)で
 **ニューラルネットワーク**
 
 SagittalT2/STIR画像抽出用、SagittalT1抽出用、AxialT2抽出用それぞれ用意しました。
-
-**DenseNet**
+またニューラルネットワークの構造は**DenseNet**を使いました。
 
 * SagittalT2/STIR画像抽出用
 * SagittalT1抽出用
@@ -199,11 +198,21 @@ one-hot表現を用いて5✖︎3の行列で正解ラベルを作成しまし�
  [0,0,1]]
 ~~~
 
-ニューラルネットワーク
+**ニューラルネットワーク**
 
 **EfficientNet**
 
+脊柱管狭窄症(Spinal Canal Stenosis)予測用、椎間孔狭窄症(Neural Foraminal Stenosis)予測用、変性すべり症(Subarticular Stenosis)予測用それぞれ用意しました。
+またニューラルネットワークの構造は**EfficientNet**を採用しました。
 
+1.テストデータの画像を読み取る。
+2.**DenceNet**で画像抽出をする。
+3.2で抽出した画像をもとに**EfficientNet**で確率を出力する。
+4.1~3を繰り返す。
+
+* 脊柱管狭窄症(Spinal Canal Stenosis)
+* 椎間孔狭窄症(Neural Foraminal Stenosis)
+* 変性すべり症(Subarticular Stenosis)
 
 ## 最終的なスコア
 
