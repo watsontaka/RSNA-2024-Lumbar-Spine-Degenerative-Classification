@@ -2,12 +2,12 @@
 
 # コンペティションの概要
 
-脊柱管狭窄症、ヘルニア等の変性脊椎症の原因となる腰椎の部位を検出することを目的としたコンペティションです。
+脊柱管狭窄症、ヘルニアなどの原因となる腰椎の部位を検出することを目的としたコンペティションです。
 MRI画像を使い腰椎のうちの５つの部位を **通常(Normal/Mild)** **中傷(Moderate)** **重症(Severe)** の３種類の程度の確率を予測する機械学習モデルを作ることが目標になります。
 
 例
 
-|a|Normal/Mild|Moderate|Severe|
+|    |Normal/Mild|Moderate|Severe|
 |:--:|:--:|:--:|:--:|
 |第一腰椎|0.95|0.01|0.04|
 |第二腰椎|0.86|0.13|0.01|
@@ -34,26 +34,35 @@ MRI画像を使い腰椎のうちの５つの部位を **通常(Normal/Mild)** *
 
 ### 症状について
 
-* **脊柱管狭窄症**(Spinal Canal Stenosis)
+* **脊柱管狭窄症(Spinal Canal Stenosis)**
+![脊柱管狭窄症]()
 
-* **左側椎間孔狭窄症**(Left Neural Foraminal Stenosis )
+* **椎間孔狭窄症(Neural Foraminal Stenosis)**
+神経の本幹である脊髄（せきずい）から左右に枝分かれする細い神経の通り道が狭くなり圧迫されることにより、腰痛や手足の痺れを引き起こします。
+  * **左側椎間孔狭窄症(Left Neural Foraminal Stenosis)**
+  * **右側椎間孔狭窄症(Right Neural Foraminal Stenosis)**
+![椎間孔狭窄症]()
 
-*  **右側椎間孔狭窄症**(Right Neural Foraminal Stenosis)
-
-* **右側**(Left Subarticular Stenosis)
-
-* **左側**(Right Subarticular Stenosis)
+* **変性すべり症(Subarticular Stenosis)**
+  * **左側変性すべり症(Left Subarticular Stenosis)**
+  * **右側変性すべり症(Right Subarticular Stenosis)**
+![変性すべり症]()
 
 
 ## MRIについて
 
-MRI画像は断面が３種類ある。
+MRI画像は断面が３種類あります。
 
 * Saggital - 矢状断面
 ![矢状断面]()
 
 * Axial - 水平断面
 ![水平断面]()
+
+* Coronal -　冠状断面
+![冠状断]()
+
+本コンペティションで用意されている画像は**Saggital画像**と**Axial画像**になります。
 
 MRIの信号の種類
 
@@ -66,13 +75,16 @@ T1
 参考URL
 []
 
-なお症状が確認できる
+csvファイルを見ると以下の関連性があります。
 
 Spinal Canal Stenosis - SaggitalT2/STIR
+矢状断面でT2信号脂肪抑制で撮影した画像になります。
 
 Neural Foraminal Stenosis - SaggitalT1
+矢状断面でT1信号で撮影した画像になります。
 
 Subarticular Stenosis - AxialT2
+水平断面でT2信号で撮影した画像になります。
 
 dicomファイル
 
@@ -139,6 +151,8 @@ one-hot表現を用いて5✖︎3の行列で正解ラベルを作成しまし�
 |L1/L2|L2/L3|L3/L4|L4/L5|L5/S1|
 |:--:|:--:|:--:|:--:|:--:|
 |Normal/Mild|Normal/Mild|Normal/Mild|Moderate|Severe|
+
+
 ~~~python
 [[1,0,0]
  [1,0,0]
