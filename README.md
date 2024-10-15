@@ -10,17 +10,26 @@
 
 # EDA
 
-## 症状の種類について
+## 腰椎
 
-* Spinal Canal Stenosis **脊柱管狭窄症**
+部位
 
-* Left Neural Foraminal Stenosis **左側椎間孔狭窄症**
+以下の通り画像の通りL1からL5まであります。
 
-* Right Neural Foraminal Stenosis **右側椎間孔狭窄症**
+![腰椎](https://fuelcells.org/wp/wp-content/uploads/2023/11/intervertebral-disc.jpg.webp)
+
+### 症状について
+
+* **脊柱管狭窄症**(Spinal Canal Stenosis)
+
+* **左側椎間孔狭窄症**(Left Neural Foraminal Stenosis )
+
+*  **右側椎間孔狭窄症**(Right Neural Foraminal Stenosis)
 
 * Left Subarticular Stenosis
 
-* Right Subarticular Stenosis 
+* Right Subarticular Stenosis
+
 
 ## MRIについて
 
@@ -30,21 +39,14 @@
 
 MRIの信号の種類
 
-T1
+T2/STIR
 
 T2
 
-T2/STIR
+T1
 
-L1/L2　第一腰椎
-
-L2/L3　第二腰椎
-
-L3/L4　第三腰椎
-
-L4/L5　第四腰椎
-
-L5/S1　第五腰椎
+参考URL
+[]
 
 対応表
 
