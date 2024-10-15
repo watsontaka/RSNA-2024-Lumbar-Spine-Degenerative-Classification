@@ -1,6 +1,6 @@
 # RSNA 2024 Lumbar Spine Degenerative Classification
 
-## コンペティションの概要
+# コンペティションの概要
 
 各方向から撮影された腰椎のMRI画像を使って腰椎の５つの部位の状態を予測するという内容のコンペティションになります。
 
@@ -8,10 +8,9 @@
 
 [https://www.kaggle.com/competitions/rsna-2024-lumbar-spine-degenerative-classification]
 
-## EDA
+# EDA
 
-症状の種類について
-==================
+## 症状の種類について
 
 * Spinal Canal Stenosis 脊柱管狭窄症
 
@@ -23,8 +22,7 @@
 
 * Right Subarticular Stenosis 
 
-MRIについて
-==================
+## MRIについて
 
 * Saggital - 矢状断面
 
