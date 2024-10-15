@@ -3,10 +3,13 @@
 腰椎のMRI画像を使って通常状態・中程度・重症の
 ## EDA
 Spinal Canal Stenosis 脊柱管狭窄症
+
 Neural Aminal Stenosis 椎間孔狭窄症
+
 Subarticular Stenosis
 
 Saggital - 矢状断面
+
 Axial - 水平断面
 
 MRIの信号の種類
