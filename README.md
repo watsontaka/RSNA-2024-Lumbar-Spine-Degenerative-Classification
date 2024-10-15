@@ -12,11 +12,11 @@
 
 ## 症状の種類について
 
-* Spinal Canal Stenosis 脊柱管狭窄症
+* Spinal Canal Stenosis **脊柱管狭窄症**
 
-* Left Neural Foraminal Stenosis 左側椎間孔狭窄症
+* Left Neural Foraminal Stenosis **左側椎間孔狭窄症**
 
-* Right Neural Foraminal Stenosis 右側椎間孔狭窄症
+* Right Neural Foraminal Stenosis **右側椎間孔狭窄症**
 
 * Left Subarticular Stenosis
 
