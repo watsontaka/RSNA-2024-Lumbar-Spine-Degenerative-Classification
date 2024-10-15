@@ -29,8 +29,7 @@ MRI画像を使い腰椎のうちの５つの部位を **通常(Normal/Mild)** *
 
 ![腰椎](https://fuelcells.org/wp/wp-content/uploads/2023/11/intervertebral-disc.jpg.webp)
 
-画像　リペアセルクリニック
-[https://fuelcells.org/topics/27830/]
+画像:リペアセルクリニック [https://fuelcells.org/topics/27830/]
 
 ### 症状について
 
@@ -55,15 +54,15 @@ MRI画像は断面が３種類あります。
 
 ![断面](https://ilclinic.or.jp/wp/wp-content/uploads/2022/12/image-18.png)
 
-* Saggital - 矢状断面
+* **矢状断面(Sagittal)**
 
 ![矢状断面](https://ilclinic.or.jp/wp/wp-content/uploads/2022/12/image-14.png)
 
-* Axial - 水平断面
+* **水平断面(Axial)**
   
 ![水平断面](https://ilclinic.or.jp/wp/wp-content/uploads/2022/12/image-15.png)
 
-* Coronal -　冠状断面
+* **冠状断面(Coronal)**
 
 ![冠状断](https://ilclinic.or.jp/wp/wp-content/uploads/2022/12/image-17.png)
 
@@ -90,6 +89,8 @@ Neural Foraminal Stenosis - SaggitalT1
 
 Subarticular Stenosis - AxialT2
 水平断面でT2信号で撮影した画像になります。
+
+参考・参考画像:[https://ilclinic.or.jp/column/mri%e7%94%bb%e5%83%8f%e3%81%ae%e8%a6%8b%e6%96%b9]
 
 dicomファイル
 
