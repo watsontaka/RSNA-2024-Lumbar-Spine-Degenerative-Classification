@@ -2,19 +2,19 @@
 
 # コンペティションの概要
 
-脊柱管狭窄症、ヘルニアなどの原因となる腰椎の部位を検出することを目的としたコンペティションです。
+脊柱管狭窄症、ヘルニアなどの原因となっている腰椎の部位を検出することを目的としたコンペティションです。
 
-MRI画像を使い腰椎の５つの部位を **通常(Normal/Mild)** **中傷(Moderate)** **重症(Severe)** の３種類の程度の確率を予測する機械学習モデルを作ることが目標になります。
+MRI画像を使い腰椎の５つ(第１腰椎から第５腰椎)の部位を **通常(Normal/Mild)** **中傷(Moderate)** **重症(Severe)** の３種類の程度の確率を予測する機械学習モデルを作ることが目標になります。
 
 例
 
 |    |Normal/Mild|Moderate|Severe|
 |:--:|:--:|:--:|:--:|
-|第一腰椎|0.95|0.01|0.04|
-|第二腰椎|0.86|0.13|0.01|
-|第三腰椎|0.33|0.56|0.11|
-|第四腰椎|0.07|0.30|0.63|
-|第五腰椎|0.40|0.50|0.10|
+|L1/L2|0.95|0.01|0.04|
+|L2/L3|0.86|0.13|0.01|
+|L3/L4|0.33|0.56|0.11|
+|L4/L5|0.07|0.30|0.63|
+|L5/S1|0.40|0.50|0.10|
 
 コンペティションのURLは以下になります。
 
@@ -39,7 +39,8 @@ MRI画像を使い腰椎の５つの部位を **通常(Normal/Mild)** **中傷(M
 ![脊柱管狭窄症]()
 
 * **椎間孔狭窄症(Neural Foraminal Stenosis)**
-神経の本幹である脊髄（せきずい）から左右に枝分かれする細い神経の通り道が狭くなり圧迫される病気です。
+神経の本幹である脊髄から左右に枝分かれする細い神経の通り道(椎間孔)が狭くなり、神経が圧迫される病気です。
+症状としては腰部の痛みや手足の痺れが現れます。
   * **左側椎間孔狭窄症(Left Neural Foraminal Stenosis)**
   * **右側椎間孔狭窄症(Right Neural Foraminal Stenosis)**
 ![椎間孔狭窄症]()
@@ -49,6 +50,21 @@ MRI画像を使い腰椎の５つの部位を **通常(Normal/Mild)** **中傷(M
   * **右側変性すべり症(Right Subarticular Stenosis)**
 ![変性すべり症]()
 
+本コンペティションでは以下の５つの症状を与えられたMRI画像から**通常(Normal/Mild)** **中傷(Moderate)** **重症(Severe)** の程度を部位ごとにそれぞれ確率で予測することになります。
+
+脊柱管狭窄症(Spinal Canal Stenosis)
+左側椎間孔狭窄症(Left Neural Foraminal Stenosis)
+右側椎間孔狭窄症(Right Neural Foraminal Stenosis)
+左側変性すべり症(Left Subarticular Stenosis)
+右側変性すべり症(Right Subarticular Stenosis)
+
+|    |Normal/Mild|Moderate|Severe|
+|:--:|:--:|:--:|:--:|
+|spinal_canal_stenosis_L1_L2 |0.95|0.01|0.04|
+|spinal_canal_stenosis_L2_L3 |0.86|0.13|0.01|
+|spinal_canal_stenosis_L3_L4 |0.33|0.56|0.11|
+|spinal_canal_stenosis_L4_L5 |0.07|0.30|0.63|
+|spinal_canal_stenosis_L5_S1 |0.40|0.50|0.10|
 
 ## MRIについて
 
