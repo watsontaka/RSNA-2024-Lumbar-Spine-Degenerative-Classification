@@ -94,7 +94,7 @@ T2
 
 T1
 
-参考・参考画像:[https://ilclinic.or.jp/column/mri%e7%94%bb%e5%83%8f%e3%81%ae%e8%a6%8b%e6%96%b9]
+参考・参考画像:ILC国際腰痛クリニック [https://ilclinic.or.jp/column/mri%e7%94%bb%e5%83%8f%e3%81%ae%e8%a6%8b%e6%96%b9]
 
 
 ## データセットの概要
